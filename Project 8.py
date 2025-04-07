@@ -66,7 +66,7 @@ root.title("Customer Information Form")
 
 # Labels & Entries
 tk.Label(root, text="Name").grid(row=0, column=0, sticky='e')
-tk.Label(root, text="Birthday (YYYY-MM-DD)").grid(row=1, column=0, sticky='e')
+tk.Label(root, text="Birthday (MM-DD-YYYY)").grid(row=1, column=0, sticky='e')
 tk.Label(root, text="Email").grid(row=2, column=0, sticky='e')
 tk.Label(root, text="Phone").grid(row=3, column=0, sticky='e')
 tk.Label(root, text="Address").grid(row=4, column=0, sticky='e')
